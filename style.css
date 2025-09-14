@@ -1,0 +1,13 @@
+:root {
+    --primary-color: rgb(224, 128, 255);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-bg {
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blacktown Laundromat AU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-[rgb(224,128,255)]">
+                <i class="fas fa-soap mr-2"></i>Blacktown Laundromat AU
+            </a>
+            <div class="hidden md:flex space-x-8 text-lg">
+                <a href="#services" class="text-gray-600 hover:text-[rgb(224,128,255)] transition duration-300">Services</a>
+                <a href="#why-us" class="text-gray-600 hover:text-[rgb(224,128,255)] transition duration-300">Why Us</a>
+                <a href="#reviews" class="text-gray-600 hover:text-[rgb(224,128,255)] transition duration-300">Reviews</a>
+                <a href="#contact" class="text-gray-600 hover:text-[rgb(224,128,255)] transition duration-300">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                 <i class="fas fa-bars text-[rgb(224,128,255)] text-3xl"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 text-lg">
+            <a href="#services" class="block py-2 text-gray-600 hover:text-[rgb(224,128,255)]">Services</a>
+            <a href="#why-us" class="block py-2 text-gray-600 hover:text-[rgb(224,128,255)]">Why Us</a>
+            <a href="#reviews" class="block py-2 text-gray-600 hover:text-[rgb(224,128,255)]">Reviews</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-[rgb(224,128,255)]">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-24 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Blacktown Laundromat AU</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Experience the best laundry service in Blacktown with great prices and a friendly atmosphere.</p>
+                <a href="#contact" class="bg-white text-[rgb(224,128,255)] font-bold py-3 px-8 rounded-full text-lg hover:bg-[rgb(112,64,128)] transition duration-300 transform hover:scale-105">Visit Us Today</a>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800">Our Services</h2>
+                    <p class="text-gray-600 mt-2 text-lg">Everything you need for a perfect laundry day.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-[rgb(224,128,255)] text-5xl mb-4">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Dry Cleaning</h3>
+                        <p class="text-gray-600 text-lg">Professional dry cleaning for your delicate garments. We handle your clothes with the utmost care.</p>
+                    </div>
+                    <div class="text-center p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-[rgb(224,128,255)] text-5xl mb-4">
+                            <i class="fas fa-hand-sparkles"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Wash & Fold Service</h3>
+                        <p class="text-gray-600 text-lg">Don't have time? Drop off your laundry, and we'll wash, dry, and fold it for you.</p>
+                    </div>
+                    <div class="text-center p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-[rgb(224,128,255)] text-5xl mb-4">
+                            <i class="fas fa-shirt"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Ironing</h3>
+                        <p class="text-gray-600 text-lg">Crisp and professional ironing services to make your clothes look their best.</p>
+                    </div>
+                    <div class="text-center p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-[rgb(224,128,255)] text-5xl mb-4">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Bedding</h3>
+                        <p class="text-gray-600 text-lg">We handle duvets, comforters, blankets, and pillows with specialized care.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="why-us" class="py-20 bg-[rgb(224,128,255)]">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white">Why Choose Us?</h2>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="bg-white text-[rgb(224,128,255)] rounded-full w-20 h-20 flex items-center justify-center mx-auto text-3xl">
+                           <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3 class="font-semibold mt-4 text-2xl text-white">Folding Experts</h3>
+                        <p class="text-white text-lg">Our team folds your laundry with precision and care.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white text-[rgb(224,128,255)] rounded-full w-20 h-20 flex items-center justify-center mx-auto text-3xl">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="font-semibold mt-4 text-2xl text-white">Fast Turnaround</h3>
+                        <p class="text-white text-lg">Get your fresh, clean laundry back in record time.</p>
+                    </div>
+                     <div class="text-center">
+                        <div class="bg-white text-[rgb(224,128,255)] rounded-full w-20 h-20 flex items-center justify-center mx-auto text-3xl">
+                           <i class="fas fa-tags"></i>
+                        </div>
+                        <h3 class="font-semibold mt-4 text-2xl text-white">Affordable</h3>
+                        <p class="text-white text-lg">Top-quality service that doesn't break the bank.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-white text-[rgb(224,128,255)] rounded-full w-20 h-20 flex items-center justify-center mx-auto text-3xl">
+                           <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="font-semibold mt-4 text-2xl text-white">Wide Range of Services</h3>
+                        <p class="text-white text-lg">From dry cleaning to bedding, we handle it all.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800">What Our Customers Say</h2>
+                    <p class="text-gray-600 mt-2 text-lg">Sourced from Google Reviews</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="text-[rgb(224,128,255)] mb-4 text-xl">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic mb-4 text-lg">"This place is brilliant. A super friendly guy helped me out. My clothes were wet and smelly when I brought them and when I picked them up smelled amazing. He even folded them nicely and put them in neat categories. The price was very reasonable for the work. Thank you!"</p>
+                        <p class="font-semibold text-gray-800 text-lg">Sina Karimi</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="text-[rgb(224,128,255)] mb-4 text-xl">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic mb-4 text-lg">"Only recently moved into the area and haven't sorted a washer for the property. Gave this place a go and you get a lot of value for what you pay for. The gentleman working at the time let me know it wasn't DIY and that all the services are done through him. The whole processed was done professionally including time of completion and it was all wash, dried, folded and bagged. Definitely worth the price you pay for the service and the experience. Would definitely recommend this place!"</p>
+                        <p class="font-semibold text-gray-800 text-lg">Robert Holmes</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="text-[rgb(224,128,255)] mb-4 text-xl">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic mb-4 text-lg">"Reliable, friendly and appropriately priced service. Clothes, sheets and blankets are always cleaned and packed very well. Same day service is a plus."</p>
+                        <p class="font-semibold text-gray-800 text-lg">Jo Pinto</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="text-[rgb(224,128,255)] mb-4 text-xl">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic mb-4 text-lg">"Very good place to get your laundry done, the owner is very quick and provides an above-and-beyond type of service. They're washed, dried and folded neatly then put into a waterproof bag for the customer. Simply put, don't go anywhere else in Blacktown for your laundry, this place is like a little gem"</p>
+                        <p class="font-semibold text-gray-800 text-lg">David Carroll</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-[rgb(224,128,255)]">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white">Contact Us</h2>
+                    <p class="text-white mt-2 text-lg">We're conveniently located and ready to serve you.</p>
+                </div>
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+                        <div class="bg-white p-8 rounded-lg shadow-lg h-full">
+                            <h3 class="text-3xl font-bold text-[rgb(224,128,255)] mb-4">Visit Us</h3>
+                            <div class="text-lg">
+                                <p class="text-gray-600 mb-4 flex items-start"><i class="fas fa-map-marker-alt text-[rgb(224,128,255)] mt-1 mr-3"></i>3/24 Flushcombe Rd, Blacktown, NSW 2148</p>
+                                <p class="text-gray-600 mb-4 flex items-center"><i class="fas fa-phone text-[rgb(224,128,255)] mr-3"></i>0452 200 687</p>
+                                <h4 class="font-semibold text-gray-700 mt-6 mb-2">Opening Hours:</h4>
+                                <ul class="text-gray-600 space-y-1">
+                                    <li>Mon - Fri: 8:30 AM - 4:30 PM</li>
+                                    <li>Sat: 8:30 AM - 2 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 px-4">
+                         <div class="bg-white rounded-lg shadow-lg overflow-hidden h-full">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.502896593441!2d150.9059719756839!3d-33.77353997323862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1298ffebd77207%3A0xb6c94d5c558dbeb9!2sBlacktown%20Laundromat%20AU!5e0!3m2!1sen!2sau!4v1725593333303!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white font-bold text-[rgb(224,128,255)] py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-lg">© 2025 Blacktown Laundromat AU. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
